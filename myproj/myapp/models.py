@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-
+#hello
 class katalog(models.Model):
     phone = models.CharField(max_length = 50, verbose_name="Модель телефона")
     cost = models.IntegerField(verbose_name="Стоимость")
@@ -23,3 +23,5 @@ class users_log_psw(models.Model):
     psw = models.IntegerField(verbose_name="Password")
     name = models.CharField(max_length= 100, verbose_name="Name")
     data = models.DateField(auto_now=True, blank=True)
+	
+#test commit
