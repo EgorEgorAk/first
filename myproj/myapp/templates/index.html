@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    </head>
+    <body style=' background-color: burlywood '>
+        <div >
+            <form action="" method="POST">
+                {% csrf_token %}
+            <center>
+                <h1>Введите логин и пароль</h1> 
+            
+                <p><input name='login' placeholder='Логин'></p>
+            </center>
+
+            <center>
+                <p><input name='pass' type='password' placeholder='Пароль'></p>
+                
+            </center>
+            <center>
+            <p><input name = 'name' placeholder="Введите ваше имя">  </p> 
+            </center>
+            <center>
+                <input type ="submit" value = "Продолжить">
+            </center>
+            <center>
+                <img src='https://i-store.net/img/cat/5.png'>
+            </center>
+            </form>
+        </div >
+    </body>
+</html>
